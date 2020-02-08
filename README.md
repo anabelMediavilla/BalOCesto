@@ -1,2 +1,2 @@
 # BalOCesto
-It is a test repository
+This repository is part of UOC training.
