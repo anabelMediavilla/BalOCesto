@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="701.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.uoc.baluocesto.view.gui.PlayerViewController">
+   <children>
+      <Label fx:id="playerName" contentDisplay="CENTER" layoutX="186.0" layoutY="10.0" prefHeight="70.0" prefWidth="406.0" styleClass="fn-48" stylesheets="@app.css" text="Label" />
+      <ImageView fx:id="playerImage" fitHeight="290.0" fitWidth="168.0" layoutX="14.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="playerNumber" layoutX="68.0" layoutY="300.0" styleClass="fn-48" stylesheets="@app.css" text="12" textAlignment="CENTER" />
+      <VBox layoutX="195.0" layoutY="91.0" stylesheets="@app.css">
+         <children>
+            <Label styleClass="title-field-team" stylesheets="@app.css" text="Nombre" />
+            <Label styleClass="title-field-team" stylesheets="@app.css" text="Altura" />
+            <Label styleClass="title-field-team" stylesheets="@app.css" text="Peso" />
+            <Label styleClass="title-field-team" stylesheets="@app.css" text="F. nacimiento" />
+            <Label styleClass="title-field-team" stylesheets="@app.css" text="Nacionalidad" />
+            <Label styleClass="title-field-team" stylesheets="@app.css" text="Posición" />
+            <Label styleClass="title-field-team" stylesheets="@app.css" text="Equipo" />
+         </children>
+      </VBox>
+      <VBox fx:id="playerInfo" layoutX="328.0" layoutY="91.0" prefHeight="260.0" prefWidth="366.0">
+         <children>
+            <Label styleClass="field-team" stylesheets="@app.css" />
+            <Label styleClass="field-team" stylesheets="@app.css" />
+            <Label styleClass="field-team" stylesheets="@app.css" />
+            <Label prefHeight="40.0" prefWidth="236.0" styleClass="field-team" stylesheets="@app.css" />
+            <Label styleClass="field-team" stylesheets="@app.css" />
+            <Label styleClass="field-team" stylesheets="@app.css" />
+            <Label styleClass="field-team" stylesheets="@app.css" />
+         </children>
+      </VBox>
+      <Button layoutX="631.0" layoutY="431.0" mnemonicParsing="false" onMouseClicked="#handleReturn" text="Volver" />
+      <TableView fx:id="playerAttributes" layoutX="153.0" layoutY="370.0" prefHeight="50.0" prefWidth="537.5" stylesheets="@app.css">
+        <columns>
+          <TableColumn prefWidth="41.0" text="Ft" />
+          <TableColumn prefWidth="43.0" text="Fg2p" />
+            <TableColumn editable="false" prefWidth="42.0" text="Fg3p" />
+            <TableColumn prefWidth="70.0" text="Velocidad" />
+            <TableColumn prefWidth="54.0" text="Defensa" />
+            <TableColumn prefWidth="39.0" text="Salto" />
+            <TableColumn prefWidth="64.0" text="Rebotes" />
+            <TableColumn prefWidth="72.0" text="Asistencias" />
+            <TableColumn prefWidth="54.0" text="Energía" />
+            <TableColumn prefWidth="57.0" text="Media" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

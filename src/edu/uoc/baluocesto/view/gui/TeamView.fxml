@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="701.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.uoc.baluocesto.view.gui.TeamViewController">
+   <children>
+      <Label fx:id="teamName" contentDisplay="CENTER" layoutX="186.0" layoutY="10.0" prefHeight="70.0" prefWidth="406.0" styleClass="fn-48" stylesheets="@app.css" text="Label" />
+      <ImageView fx:id="teamLogo" fitHeight="128.0" fitWidth="128.0" layoutX="10.0" pickOnBounds="true" preserveRatio="true" />
+      <VBox layoutX="15.0" layoutY="131.0">
+         <children>
+            <Label styleClass="title-field-team" stylesheets="@app.css" text="President" />
+            <Label styleClass="title-field-team" stylesheets="@app.css" text="Año" />
+            <Label styleClass="title-field-team" stylesheets="@app.css" text="Dirección" />
+            <Label styleClass="title-field-team" stylesheets="@app.css" text="Presupuesto" />
+            <Label styleClass="title-field-team" stylesheets="@app.css" text="Sponsor" />
+            <Label styleClass="title-field-team" stylesheets="@app.css" text="Estadio" />
+            <Label styleClass="title-field-team" stylesheets="@app.css" text="Aforo" />
+         </children>
+      </VBox>
+      <VBox fx:id="teamInfo" layoutX="142.0" layoutY="131.0" prefHeight="280.0" prefWidth="273.0">
+         <children>
+            <Label styleClass="field-team" stylesheets="@app.css" />
+            <Label styleClass="field-team" stylesheets="@app.css" text="Año" />
+            <Label styleClass="field-team" stylesheets="@app.css" text="Dirección" />
+            <Label prefHeight="40.0" prefWidth="236.0" styleClass="field-team" stylesheets="@app.css" text="Presupuesto" />
+            <Label styleClass="field-team" stylesheets="@app.css" text="Sponsor" />
+            <Label styleClass="field-team" stylesheets="@app.css" text="Estadio" />
+            <Label styleClass="field-team" stylesheets="@app.css" text="Aforo" />
+         </children>
+      </VBox>
+      <Button layoutX="631.0" layoutY="423.0" mnemonicParsing="false" onMouseClicked="#handleReturn" text="Volver" />
+      <ListView fx:id="squadList" layoutX="423.0" layoutY="164.0" prefHeight="237.0" prefWidth="258.0" />
+      <Label layoutX="418.0" layoutY="126.0" styleClass="title-field-team" stylesheets="@app.css" text="Plantilla" />
+   </children>
+</AnchorPane>

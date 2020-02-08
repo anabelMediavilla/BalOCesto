@@ -1,0 +1,114 @@
+/*font size */
+
+.fn-14{
+	-fx-font-size: 14px;
+}
+
+.fn-16{
+	-fx-font-size: 16px;
+}
+
+.fn-18{
+	-fx-font-size: 18px;
+}
+
+.fn-24{
+	-fx-font-size: 24px;
+}
+
+.fn-32{
+	-fx-font-size: 32px;
+}
+
+.fn-48{
+	-fx-font-size: 48px;
+}
+
+.fn-64{
+	-fx-font-size: 64px;
+}
+
+/*text aligments */
+
+.txt-center{
+	-fx-text-alignment: center;
+}
+
+.txt-left{
+	-fx-text-alignment: left;
+}
+
+.txt-right{
+	-fx-text-alignment: right;
+}
+
+.txt-justify{
+	-fx-text-alignment: justify;
+}
+
+.fill-light-grey{
+	-fx-fill: #ececec;
+	-fx-text-fill: #ececec;
+}
+
+.fill-grey{
+	-fx-fill: #9c9c9c;
+	-fx-text-fill: #9c9c9c;
+}
+
+.fill-dark{
+	-fx-fill: #4f5d55;
+	-fx-text-fill: #4f5d55;
+}
+
+.fill-white{
+	-fx-fill: #ffffff;
+	-fx-text-fill: #ffffff;
+}
+
+/*background-colors*/
+
+.back-white{
+	-fx-background-color: #ffffff;
+}
+
+.back-transparent{
+	-fx-background-color: transparent;
+	-fx-background-radius: 0px;
+}
+
+.back-light-grey{
+	-fx-background-color: #ececec;
+}
+
+.title-field-team{
+	-fx-font-size: 20px;
+	-fx-padding: 5px;
+	-fx-font-weight: bold;	
+}
+
+.field-team{
+	-fx-font-size: 18px;
+	-fx-padding: 7px 0px 6px 10px;	
+}
+
+
+.table-column{
+	-fx-alignment: CENTER;
+}
+
+.table-row-cell:empty{
+	-fx-background-color:white;
+}
+
+.table-row-cell:empty .table-cell{
+	-fx-border-width: 0px;
+}
+
+.table-row-cell:even:filled{
+	-fx-background-color:lightblue;	
+}
+
+.player-average {
+    -fx-background-color: orange ;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.TilePane?>
+
+<SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="462.0" prefWidth="701.0" snapToPixel="false" stylesheets="@app.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.uoc.baluocesto.view.gui.MainMenuController">
+   <items>
+      <ScrollPane prefHeight="720.0" prefWidth="329.0">
+         <content>
+            <TilePane fx:id="teamsPane" prefHeight="227.0" prefWidth="686.0" />
+         </content>
+      </ScrollPane>
+      <ListView fx:id="playersPane" prefHeight="198.0" prefWidth="699.0" />
+   </items>
+</SplitPane>
